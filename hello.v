@@ -1,5 +1,5 @@
-module hello()
-    // uncomment the following line
-    initial
-    // $display("Hello, Verilog!");
+module hello;
+    // uncomment the following lines
+    //initial
+    //  $display("Hello, Verilog!");
 endmodule

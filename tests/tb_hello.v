@@ -1,3 +1,3 @@
-module tb_hello
+module tb_hello;
     hello dut();
 endmodule 
