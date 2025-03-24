@@ -1,3 +1,4 @@
+cd tests
 iverilog -o tb_hello tb_hello.v ../hello.v
 rm -f hello.out
 ./tb_hello > hello.out
