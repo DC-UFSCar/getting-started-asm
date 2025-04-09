@@ -1,3 +1,22 @@
+# Como fazer usando o navegador (l4m3r)
+
+[![Primeiros passos no GitHub Classroom)](https://img.youtube.com/vi/S1u-gHtsdI8/0.jpg)](https://www.youtube.com/watch?v=S1u-gHtsdI8)
+
+# Como fazer usando o terminal (1337)
+
+```bash
+# Criar uma conta no GitHub, entrar na turma e aceitar a tarefa
+git clone https://github.com/DC-UFSCar/ld-2025s1-getting-started-USERNAME # trocando USERNAME pelo seu usuário
+cd ld-2025s1-getting-started-USERNAME # idem
+# Editar os arquivos necessários no seu editor favorito (vim > emacs)
+git status # lista os arquivos modificados
+git diff # ver o que foi modificado 
+git add hello.v # adiciona o(s) arquivo(s) modificado(s)
+git commit -m "well done!" # usar uma mensagem que descreva bem o que você fez NESTE commit
+git push # envia para o repositório remoto
+# Pronto! Sua simulação foi entregue e será corrigida automaticamente
+```
+
 # :wave: The Basics of GitHub 
 
 ## 🤓 Course overview and learning outcomes 
