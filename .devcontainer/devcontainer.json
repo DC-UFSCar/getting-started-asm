@@ -1,10 +1,11 @@
 {
-  "postCreateCommand": "sudo apt update && sudo apt install -y iverilog",
+  "postCreateCommand": "sudo apt update && sudo apt install -y iverilog gcc-riscv64-linux-gnu binutils-riscv64-linux-gnu qemu-user qemu-user-static",
   "customizations": {
     "vscode": {
       "extensions": [
         "wavetrace.wavetrace",
         "mshr-h.VerilogHDL",
+        "zhwu95.riscv",
         "yuyichao.digitaljs"
       ]
     }

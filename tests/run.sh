@@ -1,9 +1,10 @@
 #!/bin/bash
 
 cd tests
-iverilog -o tb_hello tb_hello.v ../hello.v
-rm -f hello.out
-./tb_hello | grep -v '$finish called' > hello.out
+riscv64-linux-gnu-as ../hello.s -o hello.o && \
+riscv64-linux-gnu-ld hello.o -o hello.elf && \
+qemu-riscv64 ./hello.elf > hello.out
+echo $? >> hello.out
 
 if diff hello.out hello.ok >/dev/null; then
     echo "OK"
