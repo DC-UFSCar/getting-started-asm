@@ -1,21 +1,35 @@
-# Como fazer usando o navegador (l4m3r)
+# Tutorial básico para as simulações (TL;DR)
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/menotti/mm)
+
+As simulações desta disciplina são entregues diretamente no GitHub e possuem correção automática. 
+
+> ⚠️ Fique atento ao **prazo de entrega** de cada uma delas, pois após a importação das notas ao ambiente da disciplina a atividade atrasada **não será contabilizada no cálculo da nota**. 
+
+## Como fazer usando o navegador (l4m3r)
+
+Este vídeo foi feito para outra disciplina, mas o procedimento das entregas é o mesmo, alterando-se apenas os arquivo a serem editados e/ou entregues. 
 
 [![Primeiros passos no GitHub Classroom)](https://img.youtube.com/vi/S1u-gHtsdI8/0.jpg)](https://www.youtube.com/watch?v=S1u-gHtsdI8)
 
-# Como fazer usando o terminal (1337)
+## Como fazer usando o terminal (1337)
 
 ```bash
 # Criar uma conta no GitHub, entrar na turma e aceitar a tarefa
-git clone https://github.com/DC-UFSCar/ld-2025s1-getting-started-USERNAME # trocando USERNAME pelo seu usuário
-cd ld-2025s1-getting-started-USERNAME # idem
+git clone https://github.com/DC-UFSCar/mm-2025s2-getting-started-asm-USERNAME # trocando USERNAME pelo seu usuário
+cd mm-2025s2-getting-started-asm-USERNAME # idem
 # Editar os arquivos necessários no seu editor favorito (vim > emacs)
+make NOMEARQUIVO # usado para compilar e rodar qualquer arquivo (para entrega ou não)
 git status # lista os arquivos modificados
 git diff # ver o que foi modificado 
-git add hello.v # adiciona o(s) arquivo(s) modificado(s)
+git add hello.s # adiciona o(s) arquivo(s) modificado(s) ao commit para entrega
 git commit -m "well done!" # usar uma mensagem que descreva bem o que você fez NESTE commit
-git push # envia para o repositório remoto
+git push # envia para o repositório remoto para correção automática
 # Pronto! Sua simulação foi entregue e será corrigida automaticamente
 ```
+> 🚨 Você só deve alterar os arquivos que estão na raíz do repositório. A alteração de arquivos em outras pastas é detectada após a entrega e poderá **invalidar sua atividade**. 
+
+O conteúdo a seguir é um tutorial do GitHub do qual este repositório é um [fork](https://github.com/classroom-resources/github-starter-course).
 
 # :wave: The Basics of GitHub 
 
