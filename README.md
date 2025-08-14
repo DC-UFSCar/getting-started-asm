@@ -1,7 +1,5 @@
 # Tutorial básico para as simulações (TL;DR)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/menotti/mm)
-
 As simulações desta disciplina são entregues diretamente no GitHub e possuem correção automática. 
 
 > ⚠️ Fique atento ao **prazo de entrega** de cada uma delas, pois após a importação das notas ao ambiente da disciplina a atividade atrasada **não será contabilizada no cálculo da nota**. 
