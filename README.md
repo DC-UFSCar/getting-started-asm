@@ -1,14 +1,16 @@
 # Tutorial básico para as simulações (TL;DR)
 
-As simulações desta disciplina são entregues diretamente no GitHub e possuem correção automática. 
+As simulações baseadas neste template são entregues diretamente no GitHub e possuem correção automática. 
 
-> ⚠️ Fique atento ao **prazo de entrega** de cada uma delas, pois após a importação das notas ao ambiente da disciplina a atividade atrasada **não será contabilizada no cálculo da nota**. 
+> ⚠️ Fique atento ao **prazo de entrega** de cada uma delas, pois após a importação das notas ao ambiente da disciplina a atividade atrasada **não será contabilizada no cálculo da nota**.
+
+Nesta primeira atividade você precisa desenvolver em _assembly_ do RISC-V um programa que escreva "Hello RISC-V!" e retorne o código `42` para o sistema operacional. 
 
 ## Como fazer usando o navegador (l4m3r)
 
 Este vídeo foi feito para outra disciplina, mas o procedimento das entregas é o mesmo, alterando-se apenas os arquivo a serem editados e/ou entregues. 
 
-[![Primeiros passos no GitHub Classroom)](https://img.youtube.com/vi/S1u-gHtsdI8/0.jpg)](https://www.youtube.com/watch?v=S1u-gHtsdI8)
+[![Primeiros passos no Classroom 50)](https://img.youtube.com/vi/3GZsq9x0s7g/0.jpg)](https://www.youtube.com/watch?v=3GZsq9x0s7g)
 
 ## Como fazer usando o terminal (1337)
 
